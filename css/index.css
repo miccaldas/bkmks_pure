@@ -1,0 +1,56 @@
+ *, *::before, *::after{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: 'SH Pinscher';
+    src: url('http://localhost/bkmks_pure/fonts/sh-pinscher/web/SHPinscher-Regular.woff2') format('woff2'),
+        url('http://localhost/bkmks_pure/fonts/sh-pinscher/web/SHPinscher-Regular.woff') format('woff');
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fff6e2;
+}
+
+.header {
+     box-shadow: 10px 10px 5px grey;
+ }
+
+a#header_link {
+    font-family: 'Passion One', cursive;
+}
+
+#left-half.pure-u-1-3 {
+    margin-left: 30px;
+    font-family: 'SH Pinscher';
+}
+
+#right-half {
+    padding: 13px 0; 
+    margin: auto;
+    font-family: 'SH Pinscher';
+}
+
+#content {
+    margin-top: 100px;
+    padding-bottom: 2.5rem;
+}
+
+input#bkmk {
+    margin-left: 230px;
+
+.title {
+    font-family: 'sh pinscher';
+    font-size: 26px;
+}
+
+.footer {
+    position: absolute;
+	bottom: 0;
+	width: 100%;
+    height: 2.5rem;
+	margin-left: 250px;
+}

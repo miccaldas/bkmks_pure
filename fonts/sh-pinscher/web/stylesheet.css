@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'SH Pinscher';
+    src: url('http://localhost/pwd/resources/sh-pinscher/web/SHPinscher-Regular.woff2') format('woff2'),
+        url('http://localhost/pwd/resources/sh-pinscher/web/SHPinscher-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
